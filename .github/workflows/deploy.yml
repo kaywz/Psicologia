@@ -3,13 +3,13 @@ name: 🌚 Deploy & Quality
 on:
   push:
     branches:
-     - main
+      - main
   workflow_dispatch:   
 
 permissions:
- contents: read
- pages: write
- id-token: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
