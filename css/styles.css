@@ -43,6 +43,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: burlywood;
+  
 }
 
 .navbar a {
@@ -59,6 +60,7 @@ body {
   display: flex;
   gap: 4px;
   list-style: none;
+  gap: 50px;
 }
 
 .ims {
