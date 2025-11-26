@@ -39,10 +39,13 @@ body {
   box-sizing: border-box;
 }
 
-
+.menu{
+background-color: burlywood;
+}
 .navbar {
   overflow: hidden;
-  background-color: burlywood;
+  width: 60%;
+  margin: 0 auto;
   
 }
 
@@ -80,7 +83,7 @@ body {
 }
 
 /* contato.html */
-
+ 
 .formulario-campo {
   display: flex;
   flex: 1;
@@ -107,3 +110,10 @@ body {
   margin: 16px 0;
  
 }
+
+header {
+  position: relative;
+  background-color: #3F858C;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
